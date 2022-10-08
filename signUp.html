@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>signin page</title>
+</head>
+<body>
+<section class="mt-5">
+    <div class="container text-center py-5">
+        <div class="w-65 p-5 smart-login m-auto">
+            <h2 class="mb-4">Smart Login System</h2>
+            <div class="mb-3">
+                <input type="text" placeholder="Enter Your Name" class="form-control bg-transparent text-white " id="name-login">
+            </div>
+            <div class="mb-3">
+                <input type="email" placeholder="Enter Your Email" class="form-control bg-transparent text-white " id="email-login">
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control bg-transparent text-white mb-5" id="login-password" placeholder="Enter your password">
+            </div> 
+            <p class="text-success d-none">Success</p>
+            <p class="text-danger d-none">email already exists</p>
+            <p class="text-danger d-none exit">All inputs is required</p>
+            <a class="btn w-100 btn-outline-info text-decoration-none mb-3 sign-up " onclick="signUp()">Sign Up</a>
+            <p class="text-white">don't have an accoount? <a class="text-white text-decoration-none" href="index.html">Sign In</a></p>
+        </div>
+    </div>
+</section>
+
+<script src="js/main.js"></script>
+</body>
